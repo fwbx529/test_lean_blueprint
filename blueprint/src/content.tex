@@ -5,3 +5,17 @@
 % If you want to split the blueprint content into several files then
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance.
+\begin{lemma}
+    \label{lem:uneq_plus_fpos_fneg_lemma}
+    \lean{uneq_plus_fpos_fneg_lemma}
+    a lemma
+    \leanok
+\end{lemma}
+
+\begin{theorem}
+    \label{thm:uneq_plus_fpos_fneg}
+    \lean{uneq_plus_fpos_fneg}
+    \leanok
+    \uses{lem:uneq_plus_fpos_fneg_lemma}
+    a theorem
+\end{theorem}
